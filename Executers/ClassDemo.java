@@ -13,7 +13,7 @@ public class ClassDemo extends Thread{
 
 class Main{
     public static void main(String[] args) {
-        ExecutorService es = Executors.newFixedThreadPool(10); // yak time par 10 thread hundle hote hai
+        ExecutorService es = Executors.newFixedThreadPool(10); // yak time par 10 thread hundle ho rhe hai
         for (int i = 0; i < 101; i++) {
             ClassDemo classDemo = new ClassDemo();
             es.submit(classDemo);
