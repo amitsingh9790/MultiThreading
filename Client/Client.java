@@ -1,6 +1,6 @@
 package MultiThreading.Client;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 class TableCreater extends Thread {
     int n;
