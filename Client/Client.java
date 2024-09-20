@@ -13,7 +13,7 @@ class TableCreater extends Thread {
                 System.out.println(n+"*"+i+"="+n*i);
             }
     }
-}
+} 
 
 public class Client {
     public static void main(String[] args) {
